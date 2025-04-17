@@ -1,0 +1,66 @@
+:root {
+    --tab-color: #b6d4ec;
+    --tab-text-color: #7794b6;
+    --nav-color: #d4e8f3;
+    --page-text-color: #93a4c2;
+    --web-page-color: #d4e7f5;
+    --web-page-shadow-color: #7f91b9;
+    --page-shadow: #8092b9;
+    --bttn-color: #e1d2d5;
+    --bttn-font-color: #b39b9f;
+}
+body {   
+    padding: 200px;
+    margin: 100px;
+    border: solid;
+  border-radius: 20px;
+  border-color: #9b837f;
+  border-width: thick;
+  text-align: center;
+  background-image: url("https://www.wallpaperboulevard.com/Images/product/0023025_spring-plaid-l.jpeg");
+}
+h1  {
+    display: inline-block; 
+    padding: 10px 20px; 
+    margin: 20px 0;
+    border: solid #5D4D4A;
+    font-family: "Cabin Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  color: #fff;
+  background-color:#b39b9f ;
+  border-radius: 20px;
+  text-align: center;
+  text-shadow: rgb(224, 180, 220) 3px 0px 0px, rgb(224, 180, 220) 2.83487px 0.981584px 0px, rgb(224, 180, 220) 2.35766px 1.85511px 0px, rgb(224, 180, 220) 1.62091px 2.52441px 0px, rgb(224, 180, 220) 0.705713px 2.91581px 0px, rgb(224, 180, 220) -0.287171px 2.98622px 0px, rgb(224, 180, 220) -1.24844px 2.72789px 0px, rgb(224, 180, 220) -2.07227px 2.16926px 0px, rgb(224, 180, 220) -2.66798px 1.37182px 0px, rgb(224, 180, 220) -2.96998px 0.42336px 0px, rgb(224, 180, 220) -2.94502px -0.571704px 0px, rgb(224, 180, 220) -2.59586px -1.50383px 0px, rgb(224, 180, 220) -1.96093px -2.27041px 0px, rgb(224, 180, 220) -1.11013px -2.78704px 0px, rgb(224, 180, 220) -0.137119px -2.99686px 0px, rgb(224, 180, 220) 0.850987px -2.87677px 0px, rgb(224, 180, 220) 1.74541px -2.43999px 0px, rgb(224, 180, 220) 2.44769px -1.73459px 0px, rgb(224, 180, 220) 2.88051px -0.838247px 0px;
+}
+.header {
+    text-align: center;
+    margin-top: 20px;   
+  }
+  
+  .header img {
+    display: block;
+    margin: 0 auto;     
+    max-width: 200px;   
+  }
+  img{
+    width: 150px;
+    }
+button {
+    border: 0px none;
+    color: var(--bttn-font-color);
+    background-color: var(--bttn-color);
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 90px;
+    opacity: .9;
+    font-weight: bolder;
+    font-size: 12px;
+}
+button:hover {
+    cursor: pointer;
+}

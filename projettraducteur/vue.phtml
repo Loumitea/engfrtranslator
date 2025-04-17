@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Traducteur Anglais - Français</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "imgheader">
+    <img src="https://media3.giphy.com/media/29chrUF4FkBNOiodvd/giphy.gif?cid=6c09b9527r3o06d69hzu8zk1cl8bfejd50lvlccie7ev3lf6&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s" alt="study time header img">
+    </div>
+    <h1>Traducteur Anglais - Français  </h1> 
+    <?php if ($result !== null): ?>
+    <p>Traduction : <?= $result; ?></p>
+<?php else: ?>
+    <form action="main.php" method="POST"> <!--les données vont dans main.php avec la méthode POST-->
+        <input type="text" name="word" placeholder="Entrez un mot"> <!--champ de saisie-->
+        <select name="direction" id="id"> <!--liste déroulante-->
+            <option value="toEnglish">FR vers ANG</option>
+            <option value="toFrench">ANG vers FR</option>
+        </select>
+        <div class="button">
+            <button type="submit">Go</button>
+        </div>
+    </form>
+</body>
+</html>
+<?php endif; ?>
